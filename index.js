@@ -26,7 +26,7 @@ function iLoveTheBeatles(num) {
   do {
   // Increments to parameter
     emptyArray.push('I love the Beatles!');
-    --i;
+    i--;
   // Loops to make sure less than 15
 
 } while (i < 0 && num < 15);
