@@ -29,7 +29,7 @@ function iLoveTheBeatles(num) {
     i--;
   // Loops to make sure less than 15
 
-} while (i > 1 && num < 15);
+} while (i > 0 && num < 15);
   // Returns Array with Strings
 return emptyArray;
 }
