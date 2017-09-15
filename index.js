@@ -5,8 +5,8 @@
 // }
 // return assocMusic;
 // }
-// 
-// 
+//
+//
 // function johnLennonFacts(array) {
 // var count = 0;
 //   // Use While Loop to Add "!!!" to end of each index.
@@ -21,14 +21,15 @@
 function iLoveTheBeatles(num) {
   // Creates Variable to Store Empty array
   var emptyArray = [];
+  var i = 0;
   // Do-While Loop which adds 'I love the Beatles!' to array.
   do {
   // Increments to parameter
     emptyArray.push('I love the Beatles!');
+    i++;
   // Loops to make sure less than 15
-    // count--;
-  } 
-  // while (count <= 15);
+
+  } while (i <= 15);
   // Returns Array with Strings
 return emptyArray;
 }
