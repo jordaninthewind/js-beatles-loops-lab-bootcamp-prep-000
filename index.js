@@ -21,15 +21,15 @@
 function iLoveTheBeatles(num) {
   // Creates Variable to Store Empty array
   var emptyArray = [];
-  var i = 0;
+  var i = num;
   // Do-While Loop which adds 'I love the Beatles!' to array.
   do {
   // Increments to parameter
     emptyArray.push('I love the Beatles!');
-    i++;
+    --i;
   // Loops to make sure less than 15
 
-  } while (i <= 15);
+} while (i < 0 && num < 15);
   // Returns Array with Strings
 return emptyArray;
 }
